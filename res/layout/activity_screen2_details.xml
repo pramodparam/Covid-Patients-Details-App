@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Screen2Details"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:id="@+id/scroll"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_the_details_scrren2"
+                android:textSize="20sp"
+                android:id="@+id/head"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:baselineAligned="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#C0CA33"
+                android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                android:hint="Enter Name"
+                android:inputType="textPersonName|textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:baselineAligned="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#C0CA33"
+                    android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                    android:hint="Enter Email Address"
+                    android:inputType="textEmailAddress"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Age"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:baselineAligned="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#C0CA33"
+                    android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                    android:hint="@string/age"
+                    android:inputType="number"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/MbNo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:baselineAligned="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#C0CA33"
+                    android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                    android:hint="@string/mobile_number"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:baselineAligned="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#C0CA33"
+                    android:hint="@string/address"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:drawableStart="@drawable/ic_baseline_account_circle_24"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Address"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:baselineAligned="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#C0CA33"
+                    android:hint="@string/address"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:drawableStart="@drawable/ic_baseline_account_circle_24"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/gender_s2"
+
+
+                    android:inputType="textPersonName"
+                    android:autofillHints="no" />
+
+                <EditText
+                    android:id="@+id/ConfirmDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autofillHints="no"
+                    android:hint="@string/covid_confirm_date"
+                    android:inputType="date" />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/date_of_hospital_admission"
+                    android:id="@+id/Admission"
+                    android:layout_marginTop="10dp"
+                    android:inputType="date"
+                    android:autofillHints="no" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/date_of_discharge"
+                    android:id="@+id/discharge"
+                    android:layout_marginTop="10dp"
+                    android:inputType="date"
+                    android:autofillHints="no" />
+
+            <Button
+                android:id="@+id/B1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/updateS2"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                 />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

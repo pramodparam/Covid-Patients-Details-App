@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFD180"
+    android:layout_margin="10dp"
+        android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pname"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/pemail"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    </LinearLayout>
+
+
+        <ImageView
+            android:layout_marginStart="180dp"
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="@string/age_details"
+            android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patientAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/person_age"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Gender:"
+        android:textColor="#304FFE"
+
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/patientGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/person_gender"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Phone No:"
+            android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patientPNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/person_mobile_number"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Aadhar No:"
+        android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patientAdNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/person_aadhar_number"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="15dp"
+            android:text="Address:"
+            android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/patientAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="15dp"
+        android:maxLines="5"
+        android:paddingEnd="90dp"
+        android:paddingBottom="30dp"
+        android:text="@string/person_address"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COVID Confirm Date:"
+        android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/patientCDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/person_confirm_date"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="COVID Admission Date:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patientADate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="@string/person_admission_date"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="COVID Discharge Date:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patientDDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/person_dishcharge_date"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Vaccine Name:"
+            android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/patientvaccine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/person_vaccine_name"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="1st Dose Date:"
+        android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patient1stdose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/person_1st_dose_date"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2nd Dose Date:"
+            android:textColor="#304FFE"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/patient2nddose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/person_2nd_dose_date"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+    </LinearLayout>
+
+    </LinearLayout>
